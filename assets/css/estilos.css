@@ -2,12 +2,15 @@
 
 body{
 
+
     background-color: rgba(201, 213, 224, 0.597);
     
 }
 
 .contenedor-all{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
 
@@ -102,3 +105,46 @@ h1{
     cursor: pointer;
 
 }
+
+
+#control{
+    color:darkblue;
+    text-align: right;
+    font-size: 0.9rem;
+    text-align: center;
+}
+.destacado{
+    color: firebrick;
+    font-weight: bold;
+    text-decoration: overline;
+}
+.soporte{
+    background-color: gainsboro;
+    width: 500px;
+    border-radius: 20px;
+    border: 3px dashed honeydew;
+    margin-left: 20px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px   ;
+}
+.soporte h2{
+    color: indianred;
+}
+.soporte img{
+    width: 200px;
+    border-radius: 100%;
+    border: 3px solid black;
+}
+.btn-soporte{
+    background-color: khaki;
+    border: none;
+    padding: 00.5rem 1rem;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px lavender;
+    cursor: pointer;
+}
+.btn-soporte:hover{
+    background-color: magenta;
+}
+
