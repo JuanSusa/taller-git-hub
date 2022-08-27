@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 
 body{
+
     background-color: rgba(201, 213, 224, 0.597);
     
 }
+
+.contenedor-all{
+    display: flex;
+    
+}
+
 
 h1{
     font-family: 'Source Serif Pro', serif;
@@ -59,6 +66,39 @@ h1{
 
 }
 
-.btn .perfil{
+
+
+#moraleja{
+    color: purple;
+    text-align: center;
+    font-size:large;
+}
+
+.Julieth{
+    background-color: silver;
+    width: 500px;   
+    border-radius: 30px;
+    text-align: center;
+    border: 4px dashed goldenrod;
+    padding: 15px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.Julieth h2{
+    color: purple;
+}
+.Julieth img{
+    width: 350px;
+    border-radius: 100%;
+    border-style: groove;
+}
+.btn-Julieth{
+    background-color:palevioletred;
+    border: none;
+    padding-top: 0.5rem 1rem;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px red;
+    cursor: pointer;
 
 }
